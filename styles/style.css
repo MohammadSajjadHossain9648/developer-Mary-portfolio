@@ -13,10 +13,9 @@
     --shade-black-color: rgb(117, 117, 117);
     --primary-white-color: rgb(255, 255, 255);
     --bg-shade-color: rgb(255, 248, 243);
+    --hr-color: rgb(209, 209, 209);
 }
 .title{
-    font-size: 30px;
-    font-weight: 700;
     color: var(--primary-black-color);
 }
 .description{
@@ -197,3 +196,34 @@ main{
 
 
 /* resume section */
+.resume .title{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.resume .resume_container{
+    display: flex;
+    gap: 47px;
+}
+.resume .resume_container .resume_education_container{
+    width: 100%;
+}
+.resume .resume_container .container_title{
+    color: var(--secondary-black-color);
+    margin-bottom: 24px;
+}
+.resume .resume_container .subject_title{
+    color: var(--secondary-black-color);
+    margin-bottom: 5px;
+}
+.resume .resume_container .place_name{
+    color: var(--shade-black-color);
+    font-weight: 600;
+}
+.resume .resume_container hr{
+    margin-bottom: 24px;
+    color: var(--hr-color);
+}
+.resume .btn_container{
+    margin-top: 40px;
+    text-align: center;
+}
