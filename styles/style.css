@@ -36,6 +36,13 @@
     padding-right: 10px;
 }
 
+
+
+
+
+
+
+
 /* header section */
 header{
     background-color: var(--bg-shade-color);
@@ -107,6 +114,11 @@ header nav ul .nav_btn{
 }
 
 
+
+
+
+
+
 /* main section */
 main{
     padding: 105px 185px;
@@ -133,4 +145,39 @@ main{
 .about .about_box .about_container .about_container_item .about_container_title{
     color: var(--primary-black-color);
     font-weight: 700;
+}
+
+
+
+
+
+
+
+/* skill section */
+.skill{
+    margin: 105px 0;
+}
+.skill .skill_header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.skill .skill_container{
+    display: flex;
+}
+.skill .skill_container .skill_container_item{
+    padding: 24px;
+    width: 30%;
+    margin: 0 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill .skill_container .skill_container_item img{
+    height: 35px;
+    width: 35px;
+    padding-bottom: 24px;
+}
+.skill .skill_container .skill_container_item .skill_title{
+    color: var(--primary-black-color);
+}
+.skill .skill_container .skill_container_item .description{
+    padding: 16px 0;
 }
