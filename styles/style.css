@@ -15,7 +15,7 @@
     --bg-shade-color: rgb(255, 248, 243);
 }
 .title{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--primary-black-color);
 }
@@ -49,7 +49,7 @@ header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: left center, right bottom;
-    background-size: 90px, 700px;
+    background-size: 85px, 700px;
 }
 header nav{
     display: flex;
@@ -164,10 +164,15 @@ main{
 .skill .skill_container{
     display: flex;
 }
+.skill .skill_container .item1{
+    margin: 0 20px;
+}
+.skill .skill_container .item2{
+    margin-left: 20px;
+}
 .skill .skill_container .skill_container_item{
     padding: 24px;
     width: 30%;
-    margin: 0 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skill .skill_container .skill_container_item img{
