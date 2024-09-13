@@ -101,3 +101,10 @@ header nav ul .nav_btn{
     border: 1px solid var(--primary-orange-color);
     margin-left: 20px;
 }
+
+
+/* main style */
+main{
+    margin: 40px 185px;
+}
+
