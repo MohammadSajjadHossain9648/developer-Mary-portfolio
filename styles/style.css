@@ -227,3 +227,48 @@ main{
     margin-top: 40px;
     text-align: center;
 }
+
+
+
+
+
+
+
+/* footer section */
+.footer{
+    padding: 105px 185px;
+    background-color: var(--bg-shade-color);
+    display: flex;
+    /* gap: 40px; */
+}
+.footer .footer_left_container{
+    width: 80%;
+}
+.footer .footer_left_container .description{
+    font-size: 12px;
+    width: 85%;
+}
+.footer .footer_left_container .footer_icons img{
+    border: 1px dashed var(--hr-color);
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.footer .footer_left_container .footer_icons .footer_icon{
+    margin: 0 10px;
+}
+
+.footer .footer_right_container .title{
+    margin-bottom: 23px;
+}
+.footer .footer_right_container form input, textarea{
+    margin-bottom: 20px;
+    padding: 15px 24px;
+    width: 85%;
+    border: none;
+}
+.footer .footer_right_container form button{
+    padding: 14px 28px;
+}
+
