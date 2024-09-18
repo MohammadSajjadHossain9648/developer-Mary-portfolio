@@ -43,69 +43,69 @@
 
 
 /* header section */
-header{
+.header{
     background-color: var(--bg-shade-color);
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: left center, right bottom;
     background-size: 85px, 700px;
 }
-header nav{
+.header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 185px 10px;
 }
-header nav .nav_title{
+.header nav .nav_title{
     color: var(--primary-black-color);
     font-size: 40px;
     font-weight: 800;
 }
-header nav .nav_title .letter_color{
+.header nav .nav_title .letter_color{
     color: var(--primary-orange-color);
 }
-header nav ul{
+.header nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-header nav ul li{
+.header nav ul li{
     list-style: none;
 }
-header nav ul a{
+.header nav ul a{
     text-decoration: none;
     color: var(--secondary-black-color);
 }
-header nav ul .nav_btn{
+.header nav ul .nav_btn{
     padding: 14px 28px;
 }
 
-.banner{
+.header .banner{
     padding: 30px 0 0 185px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner .banner_container{
+.header .banner .banner_container{
     width: 40%;
 }
-.banner .banner_container .banner_subtitle{
+.header .banner .banner_container .banner_subtitle{
     font-size: 40px;
     font-weight: 600;
     color: var(--secondary-black-color);
     padding-bottom: 20px;
 }
-.banner .banner_container .banner_title{
+.header .banner .banner_container .banner_title{
     font-size: 70px;
     font-weight: 700;
     color: var(--primary-black-color);
 }
-.banner .banner_developer{
+.header .banner .banner_developer{
     padding-right: 30px;
     width: 45%;
 }
-.banner .banner_container .banner_btn{
+.header .banner .banner_container .banner_btn{
     color: var(--primary-orange-color);
     background-color: var(--bg-shade-color);
     border: 1px solid var(--primary-orange-color);
